@@ -3,14 +3,13 @@
 import { useState } from 'react';
 
 interface PropertyDescriptionProps {
-    description?: string;
+    description?: string[];
 }
 
 export default function PropertyDescription({ description }: PropertyDescriptionProps) {
     const [isExpanded, setIsExpanded] = useState(false);
 
-    // Hardcoded text to match the reference image exactly for the demo
-    const fullText = [
+    const descriptionText = description || [
         "This affordable 2 BHK for sale in Adhunik Serenity, BEML Layout Main Rd, Thubarahalli, Brookefield, Bengaluru, Karnataka 560066, India is perfect for those looking for a budget home. This West facing home is over 1150 sqft. & is in a convenient location. Situated on the 1st floor this home can comfortably serve your parking facility for car and bike needs.",
         "When you need community centre, children playing zone & well equipped gym, all you have to do is step out of the door as the apartment complex has what you're looking for. If you need amenities such as intercom, security & lift you'll be happy to note that this home has this & more. As this home comes with servant room, visitor parking, fire fighting equipment & sewage treatment plant & more such amenities, living here would make life more pleasant.",
         "With Ekya School ITPL, Government Primary School Doddanekundi and KLAY Prep Schools and Day Care close to this home, you'll be able to provide your children with many options to choose from. Being situated near BEST SERVICES, Dr Syamala Reddy Dental College Hospital and Research Centre and Sankara Eye Hospital, emergency care is very easily available at any time.",
@@ -51,7 +50,7 @@ export default function PropertyDescription({ description }: PropertyDescription
             <div className="mb-4">
                 <h3 className="text-[14px] text-gray-500 mb-2">two bedroom apartment</h3>
                 <div className={`text-[14px] text-gray-600 leading-relaxed space-y-4 ${!isExpanded ? 'max-h-[180px] overflow-hidden relative' : ''}`}>
-                    {fullText.map((paragraph, idx) => (
+                    {descriptionText.map((paragraph, idx) => (
                         <p key={idx}>{paragraph}</p>
                     ))}
                     {!isExpanded && (

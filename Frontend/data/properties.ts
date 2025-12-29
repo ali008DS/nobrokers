@@ -120,3 +120,29 @@ export const properties = [
         amenities: ['Power Backup', 'Lift', 'Security', 'Park', 'Parking', 'Maintenance Staff']
     }
 ];
+
+export interface Property {
+    id: string;
+    title: string;
+    location: string;
+    price: string;
+    pricePerSqft: string;
+    emi: string;
+    area: string;
+    facing: string;
+    bhk: string;
+    bathrooms: string;
+    parking: string;
+    photoCount: number;
+    underLoan: boolean;
+    imageUrl: string;
+    overview?: {
+        age: string;
+        maintenance: string;
+        flooring: string;
+        furnishing: string;
+        security: string;
+    };
+    amenities: string[];
+    description?: string[];
+}

@@ -13,7 +13,7 @@ import ChatWidget from '@/components/ChatWidget';
 import EMICalculator from '@/components/EMICalculator';
 import PriceTrends from '@/components/PriceTrends';
 import PropertyDescription from '@/components/PropertyDescription';
-import { properties } from '@/data/properties';
+import { properties, Property } from '@/data/properties'; // Updated import
 import { notFound } from 'next/navigation';
 
 interface PageProps {
@@ -23,7 +23,7 @@ interface PageProps {
 }
 
 export default function PropertyDetail({ params }: PageProps) {
-    const property = properties.find(p => p.id === params.id);
+    const property = properties.find(p => p.id === params.id) as unknown as Property; // Cast to Property
 
     if (!property) {
         return notFound();
