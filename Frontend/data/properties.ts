@@ -1,0 +1,122 @@
+export const properties = [
+    {
+        id: '1',
+        title: '2 BHK Apartment In Adhunik Serenity For Sale In Adhunik Serenity, Beml Layout Main Rd, Thubarahalli, Brookefield, Bengaluru, Karnataka 560066, India',
+        location: 'Adhunik Serenity, BEML Layout Main Rd, Thubarahalli, Brookefield, Bengaluru, Karnataka 560066, India',
+        price: '₹60 Lacs',
+        pricePerSqft: '₹5,217 per sq.ft.',
+        emi: '₹34,388/Month',
+        area: '1,150 sqft',
+        facing: 'West',
+        bhk: '2 BHK',
+        bathrooms: '2',
+        parking: 'Bike and Car',
+        photoCount: 7,
+        underLoan: true,
+        imageUrl: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=500',
+        overview: {
+            age: '5-10 Years',
+            maintenance: '₹3.0 Per Sq.Ft/M',
+            flooring: 'Vitrified',
+            furnishing: 'Semi',
+            security: 'Yes'
+        },
+        amenities: ['Lift', 'Security', 'Power Backup']
+    },
+    {
+        id: '2',
+        title: '2 BHK Flat In Swathi Magnolia For Sale In Varthur',
+        location: 'Unnamed Road, balagare road',
+        price: '₹85 Lacs',
+        pricePerSqft: '₹7,366 per sq.ft.',
+        emi: '₹48,717/Month',
+        area: '1,154 sqft',
+        facing: 'East',
+        bhk: '2 BHK',
+        bathrooms: '2',
+        parking: 'Car',
+        photoCount: 6,
+        underLoan: true,
+        imageUrl: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=500',
+        overview: {
+            age: '3-5 Years',
+            maintenance: '₹3.5 Per Sq.Ft/M',
+            flooring: 'Marble',
+            furnishing: 'Semi',
+            security: 'Yes'
+        },
+        amenities: ['Intercom', 'Lift', 'Fire safety', 'Play area', 'Security', 'Gym']
+    },
+    {
+        id: '3',
+        title: '2 BHK Flat In Swathi Magnolia For Sale In Varthur, Bangalore',
+        location: 'Swathi Magnolia Apartment, NCN Road, Devasthanagalu, Varthur',
+        price: '₹80 Lacs',
+        pricePerSqft: '₹6,678 per sq.ft.',
+        emi: '₹45,851/Month',
+        area: '1,198 sqft',
+        facing: 'East',
+        bhk: '2 BHK',
+        bathrooms: '2',
+        parking: 'Car',
+        photoCount: 10,
+        underLoan: false,
+        imageUrl: 'https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=500',
+        overview: {
+            age: 'New',
+            maintenance: '₹2.5 Per Sq.Ft/M',
+            flooring: 'Vitrified',
+            furnishing: 'Unfurnished',
+            security: 'Yes'
+        },
+        amenities: ['Lift', 'Parking']
+    },
+    {
+        id: '4',
+        title: '2 BHK Apartment In Sraddha Silver Springs, Brookefield For Sale In Brookefield',
+        location: 'Sraddha Silver Springs, Brookefield BEML Layout Main Rd, Tigalarpalya, Brookefield, Bengaluru, Karnataka 560066, India',
+        price: '₹1.3 Crores',
+        pricePerSqft: '₹9,524 per sq.ft.',
+        emi: '₹74,857/Month',
+        area: '1,365 sqft',
+        facing: 'North',
+        bhk: '2 BHK',
+        bathrooms: '2',
+        parking: 'Car',
+        photoCount: 5,
+        underLoan: true,
+        imageUrl: 'https://images.unsplash.com/photo-1484154218962-a1c002085d2f?w=500',
+        overview: {
+            age: '1-3 Years',
+            maintenance: '₹4.0 Per Sq.Ft/M',
+            flooring: 'Wood',
+            furnishing: 'Fully',
+            security: 'Gated'
+        },
+        amenities: ['Club House', 'Gym', 'Swimming Pool']
+    },
+    {
+        id: '5',
+        title: '2 BHK Apartment In Bm Homes For Sale In Thubarahalli',
+        location: 'BM Homes Whitefield, Bangalore',
+        price: '₹92.5 Lacs',
+        pricePerSqft: '₹7,502 per sq.ft.',
+        emi: '₹53,015/Month',
+        area: '1,233 sqft',
+        facing: 'North',
+        bhk: '2 BHK',
+        bathrooms: '2',
+        parking: 'Bike and Car',
+        photoCount: 8,
+        underLoan: false,
+        imageUrl: '/images/properties/bm_homes.png',
+        overview: {
+            age: 'Newly Constructed',
+            maintenance: '₹2.8 Per Sq.Ft/M',
+            flooring: 'Vitrified',
+            furnishing: 'Unfurnished',
+            security: 'Yes'
+        },
+        amenities: ['Power Backup', 'Lift', 'Security', 'Park', 'Parking', 'Maintenance Staff']
+    }
+];
