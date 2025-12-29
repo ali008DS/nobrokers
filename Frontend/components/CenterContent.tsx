@@ -72,7 +72,7 @@ export default function CenterContent() {
         {/* Content */}
         <div className="relative z-10 p-6 flex-1 flex flex-col justify-center text-white">
           <h2 className="text-[22px] font-bold mb-1">Century Mirai</h2>
-          <p className="text-gray-400 text-sm mb-3">Near Gilly's Restobar - Kundanahalli,Munnekollal,Marathahalli, Bangalore</p>
+          <p className="text-gray-400 text-sm mb-3">Near Gilly&apos;s Restobar - Kundanahalli,Munnekollal,Marathahalli, Bangalore</p>
           <div className="text-[18px] font-bold mb-4">₹2.15Cr - ₹4.87Cr</div>
 
           <div className="space-y-2 mb-6 text-gray-300 text-sm">
